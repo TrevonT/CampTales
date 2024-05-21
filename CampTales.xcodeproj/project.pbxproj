@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F36B8812BFCCFBA00756BAC /* CampTalesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36B8802BFCCFBA00756BAC /* CampTalesApp.swift */; };
+		0F36B8832BFCCFBA00756BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36B8822BFCCFBA00756BAC /* ContentView.swift */; };
+		0F36B8852BFCCFBB00756BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F36B8842BFCCFBB00756BAC /* Assets.xcassets */; };
+		0F36B8892BFCCFBB00756BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F36B8882BFCCFBB00756BAC /* Preview Assets.xcassets */; };
+		0F36B8932BFCCFBC00756BAC /* CampTalesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36B8922BFCCFBC00756BAC /* CampTalesTests.swift */; };
+		0F36B89D2BFCCFBC00756BAC /* CampTalesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36B89C2BFCCFBC00756BAC /* CampTalesUITests.swift */; };
+		0F36B89F2BFCCFBC00756BAC /* CampTalesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36B89E2BFCCFBC00756BAC /* CampTalesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F36B88F2BFCCFBC00756BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F36B8752BFCCFBA00756BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F36B87C2BFCCFBA00756BAC;
+			remoteInfo = CampTales;
+		};
+		0F36B8992BFCCFBC00756BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F36B8752BFCCFBA00756BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F36B87C2BFCCFBA00756BAC;
+			remoteInfo = CampTales;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F36B87D2BFCCFBA00756BAC /* CampTales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampTales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36B8802BFCCFBA00756BAC /* CampTalesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampTalesApp.swift; sourceTree = "<group>"; };
+		0F36B8822BFCCFBA00756BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0F36B8842BFCCFBB00756BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F36B8862BFCCFBB00756BAC /* CampTales.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CampTales.entitlements; sourceTree = "<group>"; };
+		0F36B8882BFCCFBB00756BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F36B88E2BFCCFBC00756BAC /* CampTalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampTalesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36B8922BFCCFBC00756BAC /* CampTalesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampTalesTests.swift; sourceTree = "<group>"; };
+		0F36B8982BFCCFBC00756BAC /* CampTalesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampTalesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F36B89C2BFCCFBC00756BAC /* CampTalesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampTalesUITests.swift; sourceTree = "<group>"; };
+		0F36B89E2BFCCFBC00756BAC /* CampTalesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampTalesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F36B87A2BFCCFBA00756BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B88B2BFCCFBC00756BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B8952BFCCFBC00756BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F36B8742BFCCFBA00756BAC = {
+			isa = PBXGroup;
+			children = (
+				0F36B87F2BFCCFBA00756BAC /* CampTales */,
+				0F36B8912BFCCFBC00756BAC /* CampTalesTests */,
+				0F36B89B2BFCCFBC00756BAC /* CampTalesUITests */,
+				0F36B87E2BFCCFBA00756BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F36B87E2BFCCFBA00756BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F36B87D2BFCCFBA00756BAC /* CampTales.app */,
+				0F36B88E2BFCCFBC00756BAC /* CampTalesTests.xctest */,
+				0F36B8982BFCCFBC00756BAC /* CampTalesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F36B87F2BFCCFBA00756BAC /* CampTales */ = {
+			isa = PBXGroup;
+			children = (
+				0F36B8802BFCCFBA00756BAC /* CampTalesApp.swift */,
+				0F36B8822BFCCFBA00756BAC /* ContentView.swift */,
+				0F36B8842BFCCFBB00756BAC /* Assets.xcassets */,
+				0F36B8862BFCCFBB00756BAC /* CampTales.entitlements */,
+				0F36B8872BFCCFBB00756BAC /* Preview Content */,
+			);
+			path = CampTales;
+			sourceTree = "<group>";
+		};
+		0F36B8872BFCCFBB00756BAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0F36B8882BFCCFBB00756BAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F36B8912BFCCFBC00756BAC /* CampTalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F36B8922BFCCFBC00756BAC /* CampTalesTests.swift */,
+			);
+			path = CampTalesTests;
+			sourceTree = "<group>";
+		};
+		0F36B89B2BFCCFBC00756BAC /* CampTalesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F36B89C2BFCCFBC00756BAC /* CampTalesUITests.swift */,
+				0F36B89E2BFCCFBC00756BAC /* CampTalesUITestsLaunchTests.swift */,
+			);
+			path = CampTalesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F36B87C2BFCCFBA00756BAC /* CampTales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F36B8A22BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTales" */;
+			buildPhases = (
+				0F36B8792BFCCFBA00756BAC /* Sources */,
+				0F36B87A2BFCCFBA00756BAC /* Frameworks */,
+				0F36B87B2BFCCFBA00756BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CampTales;
+			productName = CampTales;
+			productReference = 0F36B87D2BFCCFBA00756BAC /* CampTales.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F36B88D2BFCCFBC00756BAC /* CampTalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F36B8A52BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTalesTests" */;
+			buildPhases = (
+				0F36B88A2BFCCFBC00756BAC /* Sources */,
+				0F36B88B2BFCCFBC00756BAC /* Frameworks */,
+				0F36B88C2BFCCFBC00756BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F36B8902BFCCFBC00756BAC /* PBXTargetDependency */,
+			);
+			name = CampTalesTests;
+			productName = CampTalesTests;
+			productReference = 0F36B88E2BFCCFBC00756BAC /* CampTalesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F36B8972BFCCFBC00756BAC /* CampTalesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F36B8A82BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTalesUITests" */;
+			buildPhases = (
+				0F36B8942BFCCFBC00756BAC /* Sources */,
+				0F36B8952BFCCFBC00756BAC /* Frameworks */,
+				0F36B8962BFCCFBC00756BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F36B89A2BFCCFBC00756BAC /* PBXTargetDependency */,
+			);
+			name = CampTalesUITests;
+			productName = CampTalesUITests;
+			productReference = 0F36B8982BFCCFBC00756BAC /* CampTalesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F36B8752BFCCFBA00756BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0F36B87C2BFCCFBA00756BAC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0F36B88D2BFCCFBC00756BAC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0F36B87C2BFCCFBA00756BAC;
+					};
+					0F36B8972BFCCFBC00756BAC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0F36B87C2BFCCFBA00756BAC;
+					};
+				};
+			};
+			buildConfigurationList = 0F36B8782BFCCFBA00756BAC /* Build configuration list for PBXProject "CampTales" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F36B8742BFCCFBA00756BAC;
+			productRefGroup = 0F36B87E2BFCCFBA00756BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F36B87C2BFCCFBA00756BAC /* CampTales */,
+				0F36B88D2BFCCFBC00756BAC /* CampTalesTests */,
+				0F36B8972BFCCFBC00756BAC /* CampTalesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F36B87B2BFCCFBA00756BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36B8892BFCCFBB00756BAC /* Preview Assets.xcassets in Resources */,
+				0F36B8852BFCCFBB00756BAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B88C2BFCCFBC00756BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B8962BFCCFBC00756BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F36B8792BFCCFBA00756BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36B8832BFCCFBA00756BAC /* ContentView.swift in Sources */,
+				0F36B8812BFCCFBA00756BAC /* CampTalesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B88A2BFCCFBC00756BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36B8932BFCCFBC00756BAC /* CampTalesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F36B8942BFCCFBC00756BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F36B89D2BFCCFBC00756BAC /* CampTalesUITests.swift in Sources */,
+				0F36B89F2BFCCFBC00756BAC /* CampTalesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F36B8902BFCCFBC00756BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F36B87C2BFCCFBA00756BAC /* CampTales */;
+			targetProxy = 0F36B88F2BFCCFBC00756BAC /* PBXContainerItemProxy */;
+		};
+		0F36B89A2BFCCFBC00756BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F36B87C2BFCCFBA00756BAC /* CampTales */;
+			targetProxy = 0F36B8992BFCCFBC00756BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F36B8A02BFCCFBC00756BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F36B8A12BFCCFBC00756BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0F36B8A32BFCCFBC00756BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CampTales/CampTales.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampTales/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F36B8A42BFCCFBC00756BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CampTales/CampTales.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampTales/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0F36B8A62BFCCFBC00756BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampTales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampTales";
+			};
+			name = Debug;
+		};
+		0F36B8A72BFCCFBC00756BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTalesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampTales.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampTales";
+			};
+			name = Release;
+		};
+		0F36B8A92BFCCFBC00756BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampTales;
+			};
+			name = Debug;
+		};
+		0F36B8AA2BFCCFBC00756BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..CampTalesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampTales;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F36B8782BFCCFBA00756BAC /* Build configuration list for PBXProject "CampTales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F36B8A02BFCCFBC00756BAC /* Debug */,
+				0F36B8A12BFCCFBC00756BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F36B8A22BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F36B8A32BFCCFBC00756BAC /* Debug */,
+				0F36B8A42BFCCFBC00756BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F36B8A52BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F36B8A62BFCCFBC00756BAC /* Debug */,
+				0F36B8A72BFCCFBC00756BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F36B8A82BFCCFBC00756BAC /* Build configuration list for PBXNativeTarget "CampTalesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F36B8A92BFCCFBC00756BAC /* Debug */,
+				0F36B8AA2BFCCFBC00756BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F36B8752BFCCFBA00756BAC /* Project object */;
+}
